@@ -118,6 +118,10 @@ button:hover {
 
 /*Gallery styles */
 
+.hidden {
+  display: none;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -172,4 +176,15 @@ button:hover {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 12px;
+}
+
+.load-more {
+  display: block;
+  margin: 20px auto;
+}
+
+.end-message {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
 }
