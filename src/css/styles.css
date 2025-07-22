@@ -117,7 +117,6 @@ button:hover {
 }
 
 /*Gallery styles */
-
 .hidden {
   display: none;
 }
@@ -178,13 +177,15 @@ button:hover {
   font-size: 12px;
 }
 
-.load-more {
-  display: block;
-  margin: 20px auto;
-}
-
 .end-message {
   text-align: center;
   margin-top: 20px;
   font-weight: bold;
+}
+
+.load-more {
+  margin: 32px auto;
+  width: 125px;
+  height: 40px;
+  border-radius: 8px;
 }
